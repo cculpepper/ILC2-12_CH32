@@ -1,0 +1,178 @@
+(footprint "Slider"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J14"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ec11b59e-025d-4c6f-a6da-f7cfee445594")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SLIDE"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f1aaef5b-10e2-49a9-8b46-1bd6b373b76b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "VFDSAO_touch:Slider"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66a6436a-6c85-40db-9efa-48d218af8b6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9dc7adf-6d96-4ecd-845e-451c974f1ada")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x03, script generated"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e462e742-da4b-4f14-a49a-8045f42142e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e16ca2ae-bda1-4992-9417-e7787d0650d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 0 0) (xy 4.5 0) (xy 10 -4.5) (xy 4.5 -9.5) (xy 0 -9.5)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "db3ba55e-28ff-466f-b882-d7439c65ada4")
+	)
+	(fp_poly
+		(pts
+			(xy 24 0) (xy 14 0) (xy 19.5 -4.5) (xy 14 -9.5) (xy 24 -9.5)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "afafdb61-b048-445b-b913-73e6c3544fba")
+	)
+	(fp_poly
+		(pts
+			(xy 5.5 -9.47973) (xy 11 -4.47973) (xy 5.5 0) (xy 13 0.02027) (xy 18.5 -4.47973) (xy 13 -9.5)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "a0290bc7-d63b-41dc-a91f-8cb44ab30dad")
+	)
+	(fp_rect
+		(start -1.5 -11)
+		(end 25.5 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "0c2e377f-1dab-4eeb-bb5a-5be6b0c27ddc")
+	)
+	(fp_rect
+		(start 0 -9.5)
+		(end 24 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "4c798f6f-9843-496f-a5b0-ea486132692c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "13cc6973-d701-45d9-bb6a-b004b8303ba3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1 -9)
+		(size 2.286 1.524)
+		(layers "F.Cu")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "1bf13309-dc3e-4af5-b4e3-b1c5cccf0458")
+	)
+	(pad "2" smd roundrect
+		(at 9 -9)
+		(size 2.286 1.524)
+		(layers "F.Cu")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "7084ba3c-4da0-4658-bb06-f0d76968d494")
+	)
+	(pad "3" smd roundrect
+		(at 17 -9)
+		(size 2.286 1.524)
+		(layers "F.Cu")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "790343ee-a057-4a45-a02b-a1c2b8a52168")
+	)
+)

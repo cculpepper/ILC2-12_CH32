@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ilc2-12")(type "KiCad")(uri "${KIPRJMOD}/ilc2-12/ilc2-12.pretty")(options "")(descr ""))
+  (lib (name "PCB-USB-C")(type "KiCad")(uri "${KIPRJMOD}/PCB-USB-C/PCB-USB-C.pretty")(options "")(descr ""))
+  (lib (name "ledra")(type "KiCad")(uri "${KIPRJMOD}/ledra.pretty")(options "")(descr ""))
+  (lib (name "9032Buzzer")(type "KiCad")(uri "${KIPRJMOD}/9032Buzzer.pretty")(options "")(descr ""))
+  (lib (name "VFDSAO_touch")(type "KiCad")(uri "${KIPRJMOD}/VFDSAO_touch.pretty")(options "")(descr ""))
+  (lib (name "M2.5SMTNut")(type "KiCad")(uri "${KIPRJMOD}/M2.5SMTNut.pretty")(options "")(descr ""))
+)
