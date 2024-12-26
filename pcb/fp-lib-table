@@ -6,4 +6,5 @@
   (lib (name "9032Buzzer")(type "KiCad")(uri "${KIPRJMOD}/9032Buzzer.pretty")(options "")(descr ""))
   (lib (name "VFDSAO_touch")(type "KiCad")(uri "${KIPRJMOD}/VFDSAO_touch.pretty")(options "")(descr ""))
   (lib (name "M2.5SMTNut")(type "KiCad")(uri "${KIPRJMOD}/M2.5SMTNut.pretty")(options "")(descr ""))
+  (lib (name "modAntenna")(type "KiCad")(uri "${KIPRJMOD}/modAntenna.pretty")(options "")(descr ""))
 )

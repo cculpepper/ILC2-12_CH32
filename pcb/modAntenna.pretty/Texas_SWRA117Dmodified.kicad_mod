@@ -1,0 +1,156 @@
+(footprint "Texas_SWRA117Dmodified"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://www.ti.com/lit/an/swra117d/swra117d.pdf")
+	(tags "PCB antenna")
+	(property "Reference" "AE11"
+		(at -4.55 -5.73 180)
+		(layer "F.SilkS")
+		(uuid "a4863c84-a00d-4930-b82c-9331ae551cf8")
+		(effects
+			(font
+				(size 1 0.6)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "Value" "Antenna"
+		(at -3.95 1.89 180)
+		(layer "F.Fab")
+		(uuid "30073f92-0988-46fd-b73d-daf936e780be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "modAntenna:Texas_SWRA117Dmodified"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f064d1f-670d-434f-95ec-7f4d5b381b48")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0.68 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72a38bbb-daad-4786-9952-f90b067d5d4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Antenna with extra pin for shielding"
+		(at 0 0.68 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55e67259-6cee-4b8c-9aaa-6b1f5ff264ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "134fd21b-6b16-4802-95a6-dd090a557dd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(net_tie_pad_groups "1,2")
+	(fp_poly
+		(pts
+			(xy -2.45 -1.84) (xy -3.45 -1.84) (xy -3.95 -2.34) (xy -4.45 -2.84) (xy -4.45 -4.48) (xy -7.15 -4.48)
+			(xy -7.15 -2.85) (xy -7.55 -2.34) (xy -8 -1.84) (xy -9.15 -1.84) (xy -9.15 -4.48) (xy -11.85 -4.48)
+			(xy -11.85 0.96) (xy -9.65 0.96) (xy -9.65 0.51) (xy -11.35 0.51) (xy -11.35 -3.98) (xy -9.65 -3.98)
+			(xy -9.65 -1.34) (xy -7.75 -1.34) (xy -6.65 -2.74) (xy -6.65 -3.35) (xy -6.65 -3.98) (xy -4.95 -3.98)
+			(xy -4.95 -2.74) (xy -4.25 -2.04) (xy -3.55 -1.34) (xy -1.95 -1.34) (xy -1.95 -3.98) (xy -0.25 -3.98)
+			(xy -0.25 0.92) (xy 0.25 0.92) (xy 0.25 -3.98) (xy 1.65 -3.98) (xy 1.65 0.92) (xy 2.55 0.92) (xy 2.55 0.676785)
+			(xy 2.247583 0.676785) (xy 2.237742 0.724395) (xy 2.213674 0.766797) (xy 2.175731 0.799581) (xy 2.167819 0.803935)
+			(xy 2.125156 0.816043) (xy 2.076637 0.8153) (xy 2.031122 0.8024) (xy 2.012511 0.791787) (xy 1.978868 0.756553)
+			(xy 1.958309 0.711368) (xy 1.951778 0.661842) (xy 1.960218 0.613583) (xy 1.977112 0.581357) (xy 2.012372 0.548687)
+			(xy 2.057682 0.528592) (xy 2.107267 0.522018) (xy 2.155353 0.529908) (xy 2.188245 0.546814) (xy 2.223185 0.583584)
+			(xy 2.242847 0.628378) (xy 2.247583 0.676785) (xy 2.55 0.676785) (xy 2.55 -4.48) (xy -2.45 -4.48)
+			(xy -2.45 -1.84)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Cu")
+		(uuid "41e659f7-bbcc-4b49-a595-37f4f98c2abb")
+	)
+	(fp_rect
+		(start -12.25 -5)
+		(end 3.25 1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "bc2dbc8f-30a6-41d4-962d-8ef789409785")
+	)
+	(fp_circle
+		(center -5.5 -1.34)
+		(end -6 -0.34)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.2")
+		(uuid "da547f64-aef4-42c0-a3f1-8b9c8483120a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -4.55 -5.72 180)
+		(layer "User.2")
+		(uuid "75e8beb0-812e-4bd5-9c3e-0127d0d74af5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "1" connect rect
+		(at 0 0.68)
+		(size 0.5 0.5)
+		(layers "B.Cu")
+		(uuid "a7d0b593-3495-4ddb-a04c-e8e0cf998af5")
+	)
+	(pad "2" thru_hole rect
+		(at 2.1 0.68)
+		(size 0.9 0.5)
+		(drill 0.3)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "82d81f75-5077-40d5-8a9e-14abb20d81ea")
+	)
+)
