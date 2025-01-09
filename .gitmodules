@@ -1,0 +1,3 @@
+[submodule "pcb/ilc2-12"]
+	path = pcb/ilc2-12
+	url = git@github.com:cculpepper/ilc2-12.git
